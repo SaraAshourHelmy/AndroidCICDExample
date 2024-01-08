@@ -28,15 +28,16 @@ class MainActivity : ComponentActivity() {
                 ) {
                     Greeting("CI/CD Android")
                     Button(onClick = {
-                        Toast.makeText(this@MainActivity, "Hi Sara", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this@MainActivity, "Hi", Toast.LENGTH_SHORT).show()
                     }) {
                         Text(
-                            text = "Click me",
+                            text = "Click me Ya Sara",
                         )
                     }
                 }
             }
         }
+        //This this  a new comment
     }
 }
 
