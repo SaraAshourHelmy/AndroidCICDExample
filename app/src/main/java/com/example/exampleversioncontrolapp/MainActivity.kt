@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
                         Toast.makeText(this@MainActivity, "Hi", Toast.LENGTH_SHORT).show()
                     }) {
                         Text(
-                            text = "Click me",
+                            text = "Click me Ya Sara",
                         )
                     }
                 }
